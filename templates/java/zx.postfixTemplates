@@ -1,0 +1,17 @@
+isNotEmptySpring : is none empty by spring
+	java.util.Collection [org.springframework.util.CollectionUtils]  ¡ú  !org.springframework.util.CollectionUtils.isEmpty($expr$)
+
+.isEmptySpring : is empty by spring
+	java.util.Collection [org.springframework.util.CollectionUtils]  ¡ú  org.springframework.util.CollectionUtils.isEmpty($expr$)
+
+.isNotEmptyCommons4 : is none empty by Commons4
+	java.util.Collection [org.apache.commons.collections4.CollectionUtils]  ¡ú  org.apache.commons.collections4.CollectionUtils.isNotEmpty($expr$)
+
+.isEmptyCommons4 : is empty by Commons4
+	java.util.Collection [org.apache.commons.collections4.CollectionUtils]  ¡ú  org.apache.commons.collections4.CollectionUtils.isEmpty($expr$)
+
+.isNotEmptyCommons : is none empty by Commons
+	java.util.Collection [org.apache.commons.collections.CollectionUtils]  ¡ú  org.apache.commons.collections.CollectionUtils.isNotEmpty($expr$)
+
+.isEmptyCommons : is empty by Commons
+	java.util.Collection [org.apache.commons.collections.CollectionUtils]  ¡ú  org.apache.commons.collections.CollectionUtils.isEmpty($expr$)
