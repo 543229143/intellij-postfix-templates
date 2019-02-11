@@ -1,4 +1,6 @@
-﻿.isNotEmptySpring : is none empty by spring
+﻿## zhaoxin ##
+
+.isNotEmptySpring : is none empty by spring
 	java.util.Collection [org.springframework.util.CollectionUtils]  →  !org.springframework.util.CollectionUtils.isEmpty($expr$)
 
 .isEmptySpring : is empty by spring
